@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+}
+
+.taskDiv{
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin: 10px;
+;
+}
+
+.todoDiv{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.createForm{
+  padding: 20px;
+  width: 350px;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: 1px solid lightblue;
+
+}
+
+.titleText:focus{
+  outline: none;
+}
+.form-control:focus{
+ outline: none;
+}
+
+
+.titleText{
+  border: none;
+  margin: 20px;
+}
+
+.form-control{
+  margin: 20px;
+  border: none;
+
+}
+
+
+.header{
+  background-color: lightblue;
+  padding: 16px 32px;
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+
+}
